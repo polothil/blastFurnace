@@ -10,14 +10,6 @@ form.addEventListener('submit', (e) => {
   if (deadmanCheck.checked == true) deadman = 1;
   // console.log(deadman);
 
-  let data0 =
-    'Pure Gas Solver \r\n\r\nName: ' +
-    username.value +
-    '\r\n' +
-    'Email: ' +
-    email.value +
-    '\r\n\r\n';
-
   let data1 =
     'Dimensions of the Domain (LxHxW)\r\n' +
     length2.value +
@@ -179,7 +171,6 @@ form.addEventListener('submit', (e) => {
     '\r\n\r\n';
 
   let data =
-    data0 +
     data1 +
     data2 +
     data3 +
